@@ -1,0 +1,46 @@
+nav {
+    background-color: $grey;
+    width: 100%;
+    z-index: 2000;
+
+    h1 {
+        line-height: 0px;
+
+        img {
+            width: 60px;
+        }
+    }
+
+
+    li {
+        margin: 0px 1rem;
+    }
+    a,i{
+        color: $black-50 !important;
+    }
+
+    form {  
+        column-gap: 15px;
+
+        a {
+            padding: 1rem;
+            border: $border-1;
+            border-radius: 50%;
+            &:hover{
+                border-color: $blue;
+            }
+        }
+
+        a:last-child {
+            border: none;
+        }
+        button {
+            @include button();
+        }
+    }
+}
+
+.navbar-toggler{
+    border-color: $black-500;
+    background-color: transparent;
+}
