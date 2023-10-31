@@ -200,12 +200,18 @@ marquee {
 #services {
     position: relative;
 
+    .service:hover{
+        background: linear-gradient(#1e1e1e, #1e1e1e) padding-box,linear-gradient(160deg, rgba(255, 255, 255, 0.247), rgba(255, 255, 255, 0)) border-box;
+    
+    border: 1px solid rgba(0,0,0,0);
+    }
+
     .service {
         background-color: $grey;
         border-radius: 25px;
         margin: 10px;
         height: 380px;
-
+        
 
         p {
             margin: 15px 0px;
@@ -427,13 +433,13 @@ marquee {
 }
 
 #achievements {
-    .news {
-        display: flex;
-        flex-direction: row;
-        column-gap: 30px;
-        flex-wrap: nowrap;
-        justify-content: center;
-    }
+    // .news {
+    //     // display: flex;
+    //     // flex-direction: row;
+       
+    //     // flex-wrap: nowrap;
+    //     // justify-content: center;
+    // }
 
     span {
         color: $blue;
