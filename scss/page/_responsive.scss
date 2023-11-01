@@ -228,8 +228,22 @@
   }
   .news2 {
     display: inline-block !important;
+
   
   }
+  .social{
+    margin: auto;
+  }
+  .news{
+    div{
+      img{
+        margin: auto !important;
+      }
+    }
+ 
+  }
+ 
+ 
 }
 
 // Medium devices (tablets, 768px and up)
@@ -260,6 +274,10 @@
   .social{
     margin: auto;
   }
+.news{
+  margin: auto !important;
+}
+
 
 }
 
