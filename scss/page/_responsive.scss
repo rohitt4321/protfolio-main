@@ -181,7 +181,7 @@
     div:nth-child(2) {
       margin: auto;
       width: 95% !important;
-      margin: 0px 15px;
+
     }
   }
 
@@ -204,6 +204,21 @@
   .news2 {
     display: inline-block !important;
   }
+
+  .rotateTestimonials {
+
+    position: absolute;
+    right: -15%;
+    top: 50%;
+  }
+
+  #services {
+    .service {
+
+      margin: 15px;
+
+    }
+  }
 }
 
 
@@ -223,13 +238,47 @@
       }
     }
   }
+
   .news1 {
     display: none !important;
   }
+
   .news2 {
     display: inline-block !important;
-  
+
+
   }
+
+  .social {
+    margin: auto;
+  }
+
+  .news {
+    div {
+      img {
+        margin: auto !important;
+      }
+    }
+
+  }
+
+  .py {
+    margin: auto;
+  }
+
+  .rotateHeadings {
+
+    position: absolute;
+    right: -17%;
+    top: 50%;
+  }
+
+  .w-75 {
+    width: 100% !important;
+  }
+
+
+
 }
 
 // Medium devices (tablets, 768px and up)
@@ -257,9 +306,26 @@
   .news2 {
     display: none;
   }
-  .social{
+
+  .social {
     margin: auto;
   }
+
+  .news {
+    margin: auto !important;
+  }
+
+  .rotateHeadings {
+
+    position: absolute;
+    right: -14%;
+    top: 50%;
+  }
+
+  .w-75 {
+    width: 100% !important;
+  }
+
 
 }
 
@@ -319,6 +385,7 @@
   }
 
 
+
 }
 
 
@@ -348,6 +415,10 @@
     display: none;
   }
 
+  .w-75 {
+    width: 70% !important;
+  }
+
 }
 
 // high DPI laptops
@@ -374,6 +445,10 @@
     display: none;
   }
 
+  .w-75 {
+    width: 70% !important;
+  }
+
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -396,6 +471,10 @@
 
   .news2 {
     display: none;
+  }
+
+  .w-75 {
+    width: 70% !important;
   }
 }
 
@@ -437,6 +516,10 @@
   // }
   .news2 {
     display: none;
+  }
+
+  .w-75 {
+    width: 70% !important;
   }
 
 }

@@ -373,10 +373,13 @@ marquee {
             button {
                 @include button();
                 color: $white;
+                
 
                 i {
                     color: $black-50;
                 }
+                margin: auto;
+                display: inline-block;
             }
         }
 
@@ -493,3 +496,23 @@ marquee {
         top: 65%;
     }
 }
+.rotateTestimonials{
+    font-size: 2rem;
+    color: $grey;
+    font-weight: bold;
+    text-transform: uppercase;
+    rotate: 90deg;
+    display: inline-block;
+    position: absolute;
+    right: -2%;
+    top: 50%;
+}
+.rotateaboutme{
+    font-size: 2rem;
+    color: $grey;
+    position: absolute;
+    rotate: 270deg !important;
+    right: 80%;
+    top: 65% ;
+  
+  }
