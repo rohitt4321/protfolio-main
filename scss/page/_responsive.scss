@@ -246,6 +246,7 @@
   .news2 {
     display: inline-block !important;
 
+<<<<<<< HEAD
 
   }
 
@@ -279,6 +280,23 @@
 
 
 
+=======
+  
+  }
+  .social{
+    margin: auto;
+  }
+  .news{
+    div{
+      img{
+        margin: auto !important;
+      }
+    }
+ 
+  }
+ 
+ 
+>>>>>>> be42f0dfa560fc43bdd288022f5a2b5e9a34c97e
 }
 
 // Medium devices (tablets, 768px and up)
@@ -310,6 +328,10 @@
   .social {
     margin: auto;
   }
+.news{
+  margin: auto !important;
+}
+
 
   .news {
     margin: auto !important;
